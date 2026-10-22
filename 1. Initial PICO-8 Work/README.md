@@ -6,5 +6,10 @@
   * The game was a red dinosaur that literally just moved around the screen.
   * Example Image:
     
-![image](https://github.com/owenology/Game-Design-Journey/blob/main/1.%20Initial%20PICO-8%20Work/pictures/first-picture.png =250x250)
+### My First PICO-8 Game — Red Dinosaur
+
+<img src="pictures/first-picture.png"
+     alt="My first PICO-8 red dinosaur game"
+     title="My First PICO-8 Game"
+     width="400">
   
