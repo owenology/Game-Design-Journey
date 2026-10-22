@@ -1,7 +1,7 @@
 # GAME DESIGN JOURNEY
 
-- [First Work](#first-work-22102026)
-- [Learning the Map tool, and the player's interactions](#second-work-22102026)
+[First Work](#first-work-22102026)
+[Learning the Map tool, and the player's interactions](#second-work-22102026)
 
 ### First Work: 22/10/2026
 
@@ -9,7 +9,7 @@
   * The game was a red dinosaur that literally just moved around the screen based off Arrow Keys.
 #### Tutorial used: 
   [SpaceCat's Beginner Tutorial](https://www.youtube.com/watch?v=LTMN5ItzzuA)  
-  
+
 #### My First PICO-8 Game — Red Dinosaur
 
 <img src="pictures/first-picture.png"
@@ -25,9 +25,9 @@
   * Found a cheatsheet online.
   
   #### Tutorials used:
-    * [SpaceCat's Draw A Map Tutorial](https://www.youtube.com/watch?v=XjpZD4flViE&list=PLavIQQGm3RCmPt93jcg4LEQTvoZRFf9l0&index=4)
-    * [SpaceCat's Find the Player's Postion Tutorial](https://www.youtube.com/watch?v=1m37s-SssTM&list=PLavIQQGm3RCmPt93jcg4LEQTvoZRFf9l0&index=4)
-    * [SpaceCat's Map Interaction Tutorial](https://www.youtube.com/watch?v=cq11AB6Abaw&list=PLavIQQGm3RCmPt93jcg4LEQTvoZRFf9l0&index=5)
+  [SpaceCat's Draw A Map Tutorial](https://www.youtube.com/watch?v=XjpZD4flViE&list=PLavIQQGm3RCmPt93jcg4LEQTvoZRFf9l0&index=4)
+  [SpaceCat's Find the Player's Postion Tutorial](https://www.youtube.com/watch?v=1m37s-SssTM&list=PLavIQQGm3RCmPt93jcg4LEQTvoZRFf9l0&index=4)
+  [SpaceCat's Map Interaction Tutorial](https://www.youtube.com/watch?v=cq11AB6Abaw&list=PLavIQQGm3RCmPt93jcg4LEQTvoZRFf9l0&index=5)
 
   #### What I learnt:
   * Maps has its own editor, and within said editor you make the map using 'parts' that you'd create in the same area that you'd make a sprite. Each 'part' is given its own number (for example '6'), however if you place multiple of the 'parts' it has the same number as one another (i.e. if I placed multiple of the number '6' part they'd all be read as '6' if the player is on it.).
