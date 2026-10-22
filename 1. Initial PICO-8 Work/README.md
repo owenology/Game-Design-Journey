@@ -6,5 +6,5 @@
   * The game was a red dinosaur that literally just moved around the screen.
   * Example Image:
     
-![image](https://github.com/owenology/Game-Design-Journey/blob/main/1.%20Initial%20PICO-8%20Work/pictures/first-picture.png)
+![image](https://github.com/owenology/Game-Design-Journey/blob/main/1.%20Initial%20PICO-8%20Work/pictures/first-picture.png =250x250)
   
