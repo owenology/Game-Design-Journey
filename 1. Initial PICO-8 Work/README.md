@@ -1,6 +1,7 @@
 # GAME DESIGN JOURNEY
 
 [First Work](#first-work-22102026)
+
 [Learning the Map tool, and the player's interactions](#second-work-22102026)
 
 ### First Work: 22/10/2026
