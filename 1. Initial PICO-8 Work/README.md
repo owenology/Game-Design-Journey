@@ -1,15 +1,15 @@
 # GAME DESIGN JOURNEY
 
 - [First Work](#first-work-22102026)
-- [Learning the Map tool, and the pplayer's interactions](#second-work-22102026)
+- [Learning the Map tool, and the player's interactions](#second-work-22102026)
 
 ### First Work: 22/10/2026
 
   * Made a game with very primitive movements (mostly learning how PICO-8 works using the terminal etc.)
   * The game was a red dinosaur that literally just moved around the screen based off Arrow Keys.
-  * Tutorial used: [SpaceCat's Beginner Tutorial](https://www.youtube.com/watch?v=LTMN5ItzzuA)
-  * Example Image:
-    
+#### Tutorial used: 
+  [SpaceCat's Beginner Tutorial](https://www.youtube.com/watch?v=LTMN5ItzzuA)  
+  
 #### My First PICO-8 Game — Red Dinosaur
 
 <img src="pictures/first-picture.png"
@@ -23,7 +23,8 @@
   * Learnt how to find the position of the player on the map, and based off this change how their character interacts with parts of the map.
   * Learnt to switch between sprites (provide visual queues for changing direction).
   * Found a cheatsheet online.
-  * Tutorials used:
+  
+  #### Tutorials used:
     * [SpaceCat's Draw A Map Tutorial](https://www.youtube.com/watch?v=XjpZD4flViE&list=PLavIQQGm3RCmPt93jcg4LEQTvoZRFf9l0&index=4)
     * [SpaceCat's Find the Player's Postion Tutorial](https://www.youtube.com/watch?v=1m37s-SssTM&list=PLavIQQGm3RCmPt93jcg4LEQTvoZRFf9l0&index=4)
     * [SpaceCat's Map Interaction Tutorial](https://www.youtube.com/watch?v=cq11AB6Abaw&list=PLavIQQGm3RCmPt93jcg4LEQTvoZRFf9l0&index=5)
