@@ -26,15 +26,15 @@
     * [SpaceCat's Map Interaction Tutorial](https://www.youtube.com/watch?v=cq11AB6Abaw&list=PLavIQQGm3RCmPt93jcg4LEQTvoZRFf9l0&index=5)
 
   #### What I learnt:
-    * Maps has its own editor, and within said editor you make the map using 'parts' that you'd create in the same area that you'd make a sprite. Each 'part' is given its own number (for example '6'), however if you place multiple of the 'parts' it has the same number as one another (i.e. if I placed multiple of the number '6' part they'd all be read as '6' if the player is on it.).
+  * Maps has its own editor, and within said editor you make the map using 'parts' that you'd create in the same area that you'd make a sprite. Each 'part' is given its own number (for example '6'), however if you place multiple of the 'parts' it has the same number as one another (i.e. if I placed multiple of the number '6' part they'd all be read as '6' if the player is on it.).
 
-    * I've learnt how to seen when the player / sprite goes onto a specific 'part' that you've made from the sprite editor, through using the 'MGET' command. Because of this, I've managed to make it so the player's speed changed based off what 'part' they're currently on - so I made a car that speeds up on the road, and stops when hitting a red sign.
+  * I've learnt how to seen when the player / sprite goes onto a specific 'part' that you've made from the sprite editor, through using the 'MGET' command. Because of this, I've managed to make it so the player's speed changed based off what 'part' they're currently on - so I made a car that speeds up on the road, and stops when hitting a red sign.
 
-    * I've also learnt to make bigger sprites (this time a car), as well as switching to other sprites on the press of a button (i.e. the left arrow key displays the sprite moving left, and the right arrow key displays the sprite moving right).
+  * I've also learnt to make bigger sprites (this time a car), as well as switching to other sprites on the press of a button (i.e. the left arrow key displays the sprite moving left, and the right arrow key displays the sprite moving right).
 
-    <div>
-      <img src="pictures/second-picture.png" width="100" alt="Car on road">
-      &nbsp;&nbsp;
-      <img src="pictures/car-rotates.png" width="100" alt="Rotating car">
-    </div>
-    <img src="pictures/pico-8_cheatsheet.png" title="PICO Cheatsheet" width="200">
+  <div>
+    <img src="pictures/second-picture.png" width="100" alt="Car on road">
+    &nbsp;&nbsp;
+    <img src="pictures/car-rotates.png" width="100" alt="Rotating car">
+  </div>
+  <img src="pictures/pico-8_cheatsheet.png" title="PICO Cheatsheet" width="200">
