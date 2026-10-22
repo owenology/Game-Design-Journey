@@ -33,8 +33,9 @@
   * I've also learnt to make bigger sprites (this time a car), as well as switching to other sprites on the press of a button (i.e. the left arrow key displays the sprite moving left, and the right arrow key displays the sprite moving right).
 
   <div>
-    <img src="pictures/second-picture.png" width="100" alt="Car on road">
+    <img src="pictures/second-picture.png" width="300" alt="Car on road">
     &nbsp;&nbsp;
-    <img src="pictures/car-rotates.png" width="100" alt="Rotating car">
+    <img src="pictures/car-rotates.png" width="300" alt="Rotating car">
+    &nbsp;&nbsp;
+    <img src="pictures/pico-8_cheatsheet.png" title="PICO Cheatsheet" width="500">
   </div>
-  <img src="pictures/pico-8_cheatsheet.png" title="PICO Cheatsheet" width="200">
