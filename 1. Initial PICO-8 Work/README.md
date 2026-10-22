@@ -1,8 +1,10 @@
 # GAME DESIGN JOURNEY
 
-[First Work](#first-work-22102026)
+| # | Entry | Date | Focus |
+|:-:|-------|------|-------|
+| 1 | [First Work](#first-work) | 22/10/2026 | Basic movement |
+| 2 | [Second Work](#second-work) | 22/10/2026 | Maps and player interaction |
 
-[Learning the Map tool, and the player's interactions](#second-work-22102026)
 
 ### First Work: 22/10/2026
 
