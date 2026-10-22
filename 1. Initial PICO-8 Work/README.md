@@ -11,5 +11,5 @@
 <img src="pictures/first-picture.png"
      alt="My first PICO-8 red dinosaur game"
      title="My First PICO-8 Game"
-     width="400">
+     width="200">
   
