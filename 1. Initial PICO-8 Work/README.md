@@ -1,5 +1,8 @@
 # GAME DESIGN JOURNEY
 
+- [First Work](#first-work-22102026)
+- [Learning the Map tool, and the pplayer's interactions](#second-work-22102026)
+
 ### First Work: 22/10/2026
 
   * Made a game with very primitive movements (mostly learning how PICO-8 works using the terminal etc.)
