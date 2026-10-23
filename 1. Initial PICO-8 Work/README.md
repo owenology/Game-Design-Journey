@@ -51,6 +51,11 @@
 <details open>
 <summary><h2 id="second-work">Second Work:</h2></summary>
 
+![Entry](https://img.shields.io/badge/Entry-2-FFD700?style=for-the-badge)
+![Focus](https://img.shields.io/badge/Focus-Maps_and_player_interaction-blue?style=for-the-badge)
+![Made with](https://img.shields.io/badge/Made_with-PICO--8-ff004d?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Complete-brightgreen?style=for-the-badge)
+
 📅 **22/10/2026**
 
   * This game was made to primarily understand the map system of PICO-8.
