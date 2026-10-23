@@ -26,7 +26,7 @@
 ### Tutorial used: 
   [SpaceCat's Beginner Tutorial](https://www.youtube.com/watch?v=LTMN5ItzzuA)  
 
-<sub>[↑ Back to top](#-game-design-journey)</sub>
+<sub>[↑ Back to top](#game-design-journey)</sub>
 
 ---
 
@@ -73,4 +73,4 @@
   
   [SpaceCat's Map Interaction Tutorial](https://www.youtube.com/watch?v=cq11AB6Abaw&list=PLavIQQGm3RCmPt93jcg4LEQTvoZRFf9l0&index=5)
 
-<sub>[↑ Back to top](#-game-design-journey)</sub>
+<sub>[↑ Back to top](#game-design-journey)</sub>
