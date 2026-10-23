@@ -32,11 +32,13 @@
   * The game was a red dinosaur that literally just moved around the screen based off Arrow Keys.
 
 <p align="center">
-  <img src="pictures/first-picture.png"
+  <img src="pictures/other-media/first-work_0.gif"
        alt="My first PICO-8 red dinosaur game"
        title="My First PICO-8 Game"
        width="250">
   <br>
+  <em>My first PICO-8 game: Red Dinosaur</em>
+</p>
   <em>My first PICO-8 game: Red Dinosaur</em>
 </p>
 
