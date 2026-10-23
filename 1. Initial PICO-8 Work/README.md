@@ -1,6 +1,9 @@
-# PICO-8 Game Design Journey
+<div align="center">
 
-![PICO-8 Game Design Journey](https://img.shields.io/badge/PICO--8-Game_Design_Journey-gold?style=for-the-badge)
+# $\color{#FFD700}{\textsf{PICO-8 Game Design Journey}}$
+
+</div>
+
 <div align="center">
  
 | # | Entry | Date | Focus |
