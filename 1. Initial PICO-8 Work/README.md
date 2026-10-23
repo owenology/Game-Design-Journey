@@ -10,6 +10,7 @@
 |:-:|-------|:----:|-------|
 | 1 | [First Work](#first-work) | `22/10/2026` | Basic movement |
 | 2 | [Second Work](#second-work) | `22/10/2026` | Maps and player interaction |
+| 3 | [Third Work](#third-work) | `23/10/2026 - ?` | Functions and 'physics' |
  
 </div>
 
@@ -97,6 +98,22 @@
 > [SpaceCat's Find the Player's Position Tutorial](https://www.youtube.com/watch?v=1m37s-SssTM&list=PLavIQQGm3RCmPt93jcg4LEQTvoZRFf9l0&index=4)
 >
 > [SpaceCat's Map Interaction Tutorial](https://www.youtube.com/watch?v=cq11AB6Abaw&list=PLavIQQGm3RCmPt93jcg4LEQTvoZRFf9l0&index=5)
+
+<sub>[↑ Back to top](#pico-8-game-design-journey)</sub>
+
+</details>
+
+<details open>
+<summary><h2 id="third-work">Third Work:</h2></summary>
+
+![Entry](https://img.shields.io/badge/Entry-3-FFD700?style=for-the-badge)
+![Focus](https://img.shields.io/badge/Focus-Functions_and_'physics'-blue?style=for-the-badge)
+![Made with](https://img.shields.io/badge/Made_with-PICO--8-ff004d?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-In_progress-orange?style=for-the-badge)
+
+📅 **23/10/2026 - ?**
+
+
 
 <sub>[↑ Back to top](#pico-8-game-design-journey)</sub>
 
