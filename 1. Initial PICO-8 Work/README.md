@@ -1,9 +1,12 @@
 # <span style="color: gold;">PICO-8 Game Design Journey</span>
 
+<div align="center">
 | # | Entry | Date | Focus |
 |:-:|-------|:----:|-------|
 | 1 | [First Work](#first-work) | `22/10/2026` | Basic movement |
 | 2 | [Second Work](#second-work) | `22/10/2026` | Maps and player interaction |
+ 
+</div>
 
 <br>
 
