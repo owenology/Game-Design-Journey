@@ -1,4 +1,4 @@
-# <span style="color: gold;">PICO-8 Game Design Journey</span>
+# $\color{#FFD700}{\textsf{PICO-8 Game Design Journey}}$
 
 <div align="center">
 | # | Entry | Date | Focus |
