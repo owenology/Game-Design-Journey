@@ -20,6 +20,11 @@
 <details open>
 <summary><h2 id="first-work">First Work:</h2></summary>
 
+![Entry](https://img.shields.io/badge/Entry-1-FFD700?style=for-the-badge)
+![Focus](https://img.shields.io/badge/Focus-Basic_movement-blue?style=for-the-badge)
+![Made with](https://img.shields.io/badge/Made_with-PICO--8-ff004d?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Complete-brightgreen?style=for-the-badge)
+
 📅 **22/10/2026**
 
   * Made a game with very primitive movements (mostly learning how PICO-8 works using the terminal etc.)
