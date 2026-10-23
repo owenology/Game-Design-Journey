@@ -1,4 +1,4 @@
-# GAME DESIGN JOURNEY
+# <span style="color: gold;">PICO-8 Game Design Journey</span>
 
 | # | Entry | Date | Focus |
 |:-:|-------|:----:|-------|
