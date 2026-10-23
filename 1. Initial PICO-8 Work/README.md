@@ -6,6 +6,7 @@
 | 2 | [Second Work](#second-work) | `22/10/2026` | Maps and player interaction |
 
 <br>
+
 ---
 
 <details open>
