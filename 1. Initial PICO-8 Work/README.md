@@ -1,4 +1,4 @@
-# $\color{#FFD700}{\textsf{PICO-8 Game Design Journey}}$
+# <span style="color: gold;">PICO-8 Game Design Journey</span>
 
 | # | Entry | Date | Focus |
 |:-:|-------|:----:|-------|
@@ -7,10 +7,8 @@
 
 <br>
 
-
----
-
-## First Work:
+<details open>
+<summary><h2 id="first-work">First Work:</h2></summary>
 
 📅 **22/10/2026**
 
@@ -29,11 +27,14 @@
 ### Tutorial used: 
 >  [SpaceCat's Beginner Tutorial](https://www.youtube.com/watch?v=LTMN5ItzzuA)  
 
-<sub>[↑ Back to top](#game-design-journey)</sub>
+<sub>[↑ Back to top](#pico-8-game-design-journey)</sub>
+
+</details>
 
 ---
 
-## Second Work: 
+<details open>
+<summary><h2 id="second-work">Second Work:</h2></summary>
 
 📅 **22/10/2026**
 
@@ -56,7 +57,7 @@
   </tr>
 </table>
 
-  ### What I've learnt:
+### What I've learnt:
   * Maps has its own editor, and within said editor you make the map using 'parts' that you'd create in the same area that you'd make a sprite. Each 'part' is given its own number (for example '6'), however if you place multiple of the 'parts' it has the same number as one another (i.e. if I placed multiple of the number '6' part they'd all be read as '6' if the player is on it.).
 
   * I've learnt how to see when the player / sprite goes onto a specific 'part' that you've made from the sprite editor, through using the 'MGET' command. Because of this, I've managed to make it so the player's speed changed based off what 'part' they're currently on - so I made a car that speeds up on the road, and stops when hitting a red sign.
@@ -70,11 +71,13 @@
 </details>
 
 
-  ### Tutorials used:
+### Tutorials used:
 > [SpaceCat's Draw A Map Tutorial](https://www.youtube.com/watch?v=XjpZD4flViE&list=PLavIQQGm3RCmPt93jcg4LEQTvoZRFf9l0&index=4)
 >
 > [SpaceCat's Find the Player's Position Tutorial](https://www.youtube.com/watch?v=1m37s-SssTM&list=PLavIQQGm3RCmPt93jcg4LEQTvoZRFf9l0&index=4)
 >
 > [SpaceCat's Map Interaction Tutorial](https://www.youtube.com/watch?v=cq11AB6Abaw&list=PLavIQQGm3RCmPt93jcg4LEQTvoZRFf9l0&index=5)
 
-<sub>[↑ Back to top](#game-design-journey)</sub>
+<sub>[↑ Back to top](#pico-8-game-design-journey)</sub>
+
+</details>
