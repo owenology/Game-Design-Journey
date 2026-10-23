@@ -68,12 +68,16 @@
 <table align="center">
   <tr>
     <td align="center">
-      <img src="pictures/second-picture.png" width="300" alt="Car on road"><br>
+      <img src="pictures/second-picture.png" width="250" alt="Car on road"><br>
       <em>Car driving on the road</em>
     </td>
     <td align="center">
-      <img src="pictures/car-rotates.png" width="300" alt="Rotating car"><br>
+      <img src="pictures/car-rotates.png" width="250" alt="Rotating car"><br>
       <em>Car sprite changing direction</em>
+    </td>
+    <td align="center">
+      <img src="pictures/other-media/second-work_1.gif" width="250" alt="Car driving in the game"><br>
+      <em>Car in motion (GIF)</em>
     </td>
   </tr>
 </table>
