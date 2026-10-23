@@ -1,6 +1,7 @@
 # $\color{#FFD700}{\textsf{PICO-8 Game Design Journey}}$
 
 <div align="center">
+ 
 | # | Entry | Date | Focus |
 |:-:|-------|:----:|-------|
 | 1 | [First Work](#first-work) | `22/10/2026` | Basic movement |
