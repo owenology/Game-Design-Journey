@@ -1,11 +1,19 @@
-# Game-Design-Journey
-See how I progress in my game development journey.
+# Game Design Journey
 
-## PICO-8
-I am currently trying to get into game development, and a lot of the articles and videos online recommended PICO-8 as a starting point.
+A record of my progress learning game development, from first tutorials to making my own games.
 
-### My Goals with PICO-8:
+## Why PICO-8?
 
-I want to understand the very base-level of game development first before diving in fully into more complex game-engines, and PICO-8 is a good provider for that.
+I'm new to game development, and a lot of the articles and videos I found recommended PICO-8 as a starting point. Its tiny scope (128x128 screen, 16 colours, limited code size) lets me learn the fundamentals before moving on to larger engines like Godot or Unity.
 
-I will initially start with following and learning from tutorials, before becoming more and more detatched from them, until I know what I'm doing. This way, I'm not thrown in the deepend and not too overly reliant on help.
+## My Approach
+
+I'm starting by following tutorials, then gradually relying on them less until I can build things on my own. That way I'm not thrown in at the deep end, but I'm also not dependent on step-by-step guidance forever.
+
+## Check Out My Work so Far!
+
+-[My PICO-8 Work So Far!](https://github.com/owenology/Game-Design-Journey/tree/main/1.%20Initial%20PICO-8%20Work)
+
+## Resources
+
+- [PICO-8 manual / Lexaloffle](https://www.lexaloffle.com/pico-8.php)
