@@ -1,6 +1,6 @@
 <div align="center">
 
-# $\color{#FFD700}{\textsf{PICO-8 Game Design Journey}}$
+# PICO-8 Game Design Journey
 
 </div>
 
