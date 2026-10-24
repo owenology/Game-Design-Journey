@@ -119,7 +119,9 @@
 
 📅 **23/10/2026 - ?**
 
-
+* This game is being made to further improve my understanding of object interaction in PICO-8.
+* Whilst developing this I stayed away from as many tutorials as I could, only using PICO-8's manual and the cheatsheet listed earlier.
+* Learned how to make a jumping and falling mechanic.
 
 <sub>[↑ Back to top](#pico-8-game-design-journey)</sub>
 
