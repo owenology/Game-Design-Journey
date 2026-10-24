@@ -12,7 +12,25 @@ I'm starting by following tutorials, then gradually relying on them less until I
 
 ## Check Out My Work so Far!
 
--[My PICO-8 Work So Far!](https://github.com/owenology/Game-Design-Journey/tree/main/1.%20Initial%20PICO-8%20Work)
+- [My PICO-8 Work So Far!](https://github.com/owenology/Game-Design-Journey/tree/main/1.%20Initial%20PICO-8%20Work)
+
+<div align="center">
+
+<img src="https://github.com/owenology/Game-Design-Journey/blob/main/1.%20Initial%20PICO-8%20Work/pictures/other-media/first-work_0.gif?raw=true" alt="First PICO-8 project" width="300">
+
+**First Work**
+
+*Red Dinosaur*
+
+<br>
+
+<img src="https://github.com/owenology/Game-Design-Journey/blob/main/1.%20Initial%20PICO-8%20Work/pictures/other-media/second-work_1.gif?raw=true" alt="Second PICO-8 project" width="300">
+
+**Second Work**
+
+*Moving Car Prototype*
+
+</div>
 
 ## Resources
 
