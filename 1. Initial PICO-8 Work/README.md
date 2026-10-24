@@ -123,6 +123,12 @@
 * Whilst developing this I stayed away from as many tutorials as I could, only using PICO-8's manual and the cheatsheet listed earlier.
 * Learned how to make a jumping and falling mechanic.
 
+### What I've Learnt:
+
+* PICO-8 allows you to make multiple tabs with code on each tab.
+* The variables / functions are universal between tabs.
+* I've learnt how valuable functions are (they made the main tab so much easier to read).
+
 <sub>[↑ Back to top](#pico-8-game-design-journey)</sub>
 
 </details>
