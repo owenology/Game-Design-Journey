@@ -133,19 +133,19 @@
 	
 ```lua
 	player = {
-		sp=1,
-		x=59,
-		y=59,
-		w=8,
-		h=8,
-		flp=false,
-		dx=0,
-		dy=0,
-		max_dx=2,
-		max_dy=3,
-		acc=0.5,
-		boost=4,
-		anim=0,
+		sp=1, -- sprite number
+		x=59, -- x position
+		y=59, -- y position
+		w=8, -- sprite width
+		h=8, -- sprite height
+		flp=false, -- is the sprite flipped (i.e. looking left instead of right)
+		dx=0, -- delta x
+		dy=0, -- delta y
+		max_dx=2, -- max delta x
+		max_dy=3, -- max delta y
+		acc=0.5, -- acceleration
+		boost=4, -- boost (for jumping)
+		anim=0, -- for animation frames
 		running=false,
 		jumping=false,
 		sliding=false,
