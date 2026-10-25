@@ -126,7 +126,7 @@
 
 [![Play the game](pictures/other-media/platformer-1_4.gif)](https://<username>.github.io/<repo>/)
 
-**[▶ Play in your browser](https://<username>.github.io/<repo>/)**
+**[▶ Play in your browser](https://owenology.github.io/Game-Design-Journey/)**
 
 Controls: ⬅️ ➡️ to move, ❎ (X) to jump.
 
