@@ -3,6 +3,8 @@
 A record of my progress learning game development, from first tutorials to making my own games.
 
 ## [▶️ Play Latest Game in your Browser!](https://owenology.github.io/Game-Design-Journey/)
+> **Controls:**
+> ⬅️⬆️➡️⬇️ ❎ 
 
 ## Why PICO-8?
 
