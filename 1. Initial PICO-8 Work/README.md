@@ -128,9 +128,8 @@
 * PICO-8 allows you to make multiple tabs with code on each tab.
 * The variables / functions are universal between tabs.
 * I've learnt how valuable functions are (they made the main tab so much easier to read).
-* I've learnt how valuable Tables are. (I used a table to store the player's variables):
-<details>
-<summary><h4>Player Table Example</h4></summary>
+* I've learnt how valuable Tables are. (I used a table to store the player's variables)
+<details><summary><h4>Player Table Example</h4></summary>
 	
 ```lua
 	player = {
