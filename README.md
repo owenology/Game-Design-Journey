@@ -8,10 +8,21 @@ A record of my progress learning game development, from first tutorials to makin
  
 ### [▶️ Play the Latest Game in Your Browser!](https://owenology.github.io/Game-Design-Journey/)
  
-| Move | Action |
-|:----:|:------:|
-| ⬅️ ⬆️ ➡️ ⬇️ | Arrow keys |
-| ❎ | X |
+<table>
+  <tr>
+    <td align="center" valign="middle">
+      <img src="https://github.com/owenology/Game-Design-Journey/blob/main/1.%20Initial%20PICO-8%20Work/pictures/other-media/platformer-1_4.gif?raw=true" alt="Platformer gameplay" width="300">
+    </td>
+    <td align="center" valign="middle">
+      <b>Controls</b><br><br>
+      <table>
+        <tr><th>Move</th><th>Action</th></tr>
+        <tr><td>⬅️ ⬆️ ➡️ ⬇️</td><td>Arrow keys</td></tr>
+        <tr><td>❎</td><td>X</td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
 
 
 ## Why PICO-8?
