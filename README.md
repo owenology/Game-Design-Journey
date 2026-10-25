@@ -2,9 +2,17 @@
 
 A record of my progress learning game development, from first tutorials to making my own games.
 
-## [▶️ Play Latest Game in your Browser!](https://owenology.github.io/Game-Design-Journey/)
-**Controls:**
-> ⬅️⬆️➡️⬇️ ❎ 
+![PICO-8](https://img.shields.io/badge/Made%20with-PICO--8-ff004d?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Learning-29adff?style=for-the-badge)
+![Next](https://img.shields.io/badge/Next-Godot%20%2F%20Unity-00e436?style=for-the-badge)
+ 
+### [▶️ Play the Latest Game in Your Browser!](https://owenology.github.io/Game-Design-Journey/)
+ 
+| Move | Action |
+|:----:|:------:|
+| ⬅️ ⬆️ ➡️ ⬇️ | Arrow keys |
+| ❎ | X |
+
 
 ## Why PICO-8?
 
