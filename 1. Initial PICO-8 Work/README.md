@@ -122,6 +122,14 @@
 * This game is being made to further improve my understanding of object interaction in PICO-8.
 * Learned how to make a jumping and falling mechanic.
 
+### Platformer
+
+[![Play the game](pictures/other-media/platformer-1_4.gif)](https://<username>.github.io/<repo>/)
+
+**[▶ Play in your browser](https://<username>.github.io/<repo>/)**
+
+Controls: ⬅️ ➡️ to move, ❎ (X) to jump.
+
 ### What I've Learnt:
 
 #### Code-related
@@ -157,7 +165,112 @@
 
 #### PICO-8 Physics-related
 * ##### In-depth explanation of PICO-8's sprite co-ordinates for collision.
-	Essen
+
+A sprite's `x` and `y` are the pixel position of its **top-left** corner, and `w` and `h` are its size in pixels. So an 8×8 sprite at `x=59, y=59` covers pixels **59 to 66** on both axes. The last pixel is `x+w-1`, not `x+w`. That one-pixel difference is why `collide_map` is full of `-1`s and `+w-1`s.
+
+The map doesn't work in pixels though, it works in **tiles** (each one 8×8 pixels). Before a pixel position can be looked up on the map it has to be divided by 8. For example, pixel 59 becomes `59/8 = 7.375`, which `mget` reads as tile 7 (it ignores the decimal part).
+
+##### The `collide_map` function
+
+`collide_map(obj, aim, flag)` answers one question: **"is the edge of this object that faces `aim` touching a tile marked with this flag?"** It returns `true` or `false`, and that's all it does. It never moves anything.
+
+| Parameter | What it is |
+|-----------|------------|
+| `obj` | Any table with `x`, `y`, `w` and `h` (for now, `player`) |
+| `aim` | Which edge to check: `"left"`, `"right"`, `"up"` or `"down"` |
+| `flag` | Which sprite flag (0-7) marks a tile as solid, set in the sprite editor |
+
+<details><summary><h5>collide_map code</h5></summary>
+
+```lua
+function collide_map(obj, aim, flag)
+	-- obj = table, needs x,y,w,h
+
+	local x=obj.x local y=obj.y
+	local w=obj.w local h=obj.h
+
+	local x1=0 local y1=0
+	local x2=0 local y2=0
+
+	if aim=="left" then
+		x1=x-1 y1=y
+		x2=x y2=y+h-1
+
+	elseif aim=="right" then
+		x1=x+w-1 y1=y
+		x2=x+w y2=y+h-1
+
+	elseif aim=="up" then
+		x1=x+1 y1=y-1
+		x2=x+w-1 y2=y
+
+	elseif aim=="down" then
+		x1=x y1=y+h
+		x2=x+w y2=y+h
+	end
+
+	-- pixels to tiles
+	x1/=8 y1/=8
+	x2/=8 y2/=8
+
+	if fget(mget(x1,y1), flag)
+	or fget(mget(x1,y2), flag)
+	or fget(mget(x2,y1), flag)
+	or fget(mget(x2,y2), flag) then
+		return true
+	else
+		return false
+	end
+end
+```
+</details>
+
+**How it works, step by step:**
+
+1. **Copy the object's numbers** into local variables (`x`, `y`, `w`, `h`) so the rest of the function is easier to read.
+2. **Pick two points based on `aim`.** `(x1,y1)` and `(x2,y2)` are two pixel positions that sit along the edge being checked, one just outside or on the edge and the other at the far end of it.
+3. **Convert those pixels to tiles** by dividing by 8.
+4. **Look the tiles up and check their flags.** `mget(tx,ty)` returns the sprite number drawn on the map at that tile, then `fget(sprite, flag)` returns `true` if that sprite has the flag switched on. The function checks every combination of the two points (`x1,y1`, `x1,y2`, `x2,y1`, `x2,y2`), so if *any* of them lands on a flagged tile the answer is `true`.
+
+The points used for each direction:
+
+| `aim` | `(x1, y1)` | `(x2, y2)` | What it checks |
+|-------|-----------|-----------|----------------|
+| `"left"` | `x-1, y` | `x, y+h-1` | The full left edge, plus the pixel just outside it |
+| `"right"` | `x+w-1, y` | `x+w, y+h-1` | The full right edge, plus the pixel just outside it |
+| `"up"` | `x+1, y-1` | `x+w-1, y` | The top edge (pulled in slightly from the corners), plus the row above |
+| `"down"` | `x, y+h` | `x+w, y+h` | The row of pixels just under the feet |
+
+##### How it interacts with the player
+
+* The `player` table is passed in as `obj`. `collide_map` only reads `player.x`, `player.y`, `player.w` and `player.h`, which is why those four values are in the table.
+* The function only **reports** a collision. The code in `_update` decides what to do with the answer (stop falling, stop walking into a wall, etc).
+* Each direction is checked separately, so the player can be blocked going down but still free to move sideways.
+
+This is roughly how I expect to hook it up for falling and landing (not in my code yet, my `_update` currently only applies gravity, so the player falls straight through the floor):
+
+```lua
+function _update()
+	player.dy+=gravity
+
+	-- moving down: is there a solid tile under the feet?
+	if player.dy>0 then
+		if collide_map(player,"down",0) then
+			player.dy=0
+			player.landed=true
+			-- push the player back up so they sit on top of the tile
+			player.y-=(player.y+player.h)%8
+		end
+	end
+
+	player.y+=player.dy
+end
+```
+
+The `%8` line works because tiles are 8 pixels tall: `(player.y+player.h)%8` is how many pixels the feet have sunk into the tile, so subtracting it puts the player exactly on top.
+
+### Tutorials used:
+> [Platformer tutorial video](https://www.youtube.com/watch?v=-hejwsu9A9g)
 
 <sub>[↑ Back to top](#pico-8-game-design-journey)</sub>
 
