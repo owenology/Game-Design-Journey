@@ -10,7 +10,7 @@
 |:-:|-------|:----:|-------|
 | 1 | [First Work](#first-work) | `22/10/2026` | Basic movement |
 | 2 | [Second Work](#second-work) | `22/10/2026` | Maps and player interaction |
-| 3 | [Third Work](#third-work) | `23/10/2026 - ?` | Functions and 'physics' |
+| 3 | [Platformer](#third-work) | `23/10/2026 - ?` | Functions and 'physics' |
  
 </div>
 
@@ -120,14 +120,39 @@
 📅 **23/10/2026 - ?**
 
 * This game is being made to further improve my understanding of object interaction in PICO-8.
-* Whilst developing this I stayed away from as many tutorials as I could, only using PICO-8's manual and the cheatsheet listed earlier.
 * Learned how to make a jumping and falling mechanic.
 
 ### What I've Learnt:
 
+#### Code-related
 * PICO-8 allows you to make multiple tabs with code on each tab.
 * The variables / functions are universal between tabs.
 * I've learnt how valuable functions are (they made the main tab so much easier to read).
+* I've learnt how valuable Tables are. (I used a table to store the player's variables):
+```lua
+	player = {
+		sp=1,
+		x=59,
+		y=59,
+		w=8,
+		h=8,
+		flp=false,
+		dx=0,
+		dy=0,
+		max_dx=2,
+		max_dy=3,
+		acc=0.5,
+		boost=4,
+		anim=0,
+		running=false,
+		jumping=false,
+		sliding=false,
+		falling=false,
+		landed=false,
+	}
+```
+
+#### PICO-8 Physics-related
 
 <sub>[↑ Back to top](#pico-8-game-design-journey)</sub>
 
