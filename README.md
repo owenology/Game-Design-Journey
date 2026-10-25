@@ -2,6 +2,9 @@
 
 A record of my progress learning game development, from first tutorials to making my own games.
 
+## Play My Latest Game! :
+- [▶️ Play in your Browser!](https://owenology.github.io/Game-Design-Journey/)
+
 ## Why PICO-8?
 
 I'm new to game development, and a lot of the articles and videos I found recommended PICO-8 as a starting point. Its tiny scope (128x128 screen, 16 colours, limited code size) lets me learn the fundamentals before moving on to larger engines like Godot or Unity.
