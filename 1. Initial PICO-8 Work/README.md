@@ -131,6 +131,7 @@
 * I've learnt how valuable Tables are. (I used a table to store the player's variables):
 <details>
 <summary><h4>Player Table Example</h4></summary>
+	
 ```lua
 	player = {
 		sp=1,
