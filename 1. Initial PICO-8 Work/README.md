@@ -270,7 +270,7 @@ end
 The `%8` line works because tiles are 8 pixels tall: `(player.y+player.h)%8` is how many pixels the feet have sunk into the tile, so subtracting it puts the player exactly on top.
 
 ### Tutorials used:
-> [Platformer tutorial video](https://www.youtube.com/watch?v=-hejwsu9A9g)
+> [Platformer tutorial playlist](https://www.youtube.com/watch?v=q6c6DvGK4lg&list=PLyhkEEoUjSQtUiSOu-N4BIrHBFtLNjkyE)
 
 <sub>[↑ Back to top](#pico-8-game-design-journey)</sub>
 
