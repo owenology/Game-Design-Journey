@@ -25,8 +25,16 @@ A record of my progress learning game development, from first tutorials to makin
   </tr>
 </table>
 
+
+| # | Entry |
+|:-:|-------|
+| 1 | [PICO-8 Work](#pico-8) |
+| 2 | [Godot Work](#godot) |
+
+
 <details open>
 <summary><h2 id="pico-8">PICO-8:</h2></summary>
+
 ### Why PICO-8?
 
 I'm new to game development, and a lot of the articles and videos I found recommended PICO-8 as a starting point. Its tiny scope (128x128 screen, 16 colours, limited code size) lets me learn the fundamentals before moving on to larger engines like Godot or Unity.
@@ -64,5 +72,10 @@ Browse everything in the [PICO-8 project folder](https://github.com/owenology/Ga
 ### Resources
 
 - [PICO-8 manual / Lexaloffle](https://www.lexaloffle.com/pico-8.php)
+
+</details>
+
+<details open>
+<summary><h2 id="pico-8">Godot:</h2></summary>
 
 </details>
